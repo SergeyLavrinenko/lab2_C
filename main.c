@@ -24,5 +24,7 @@ float division(float a, float b){
 
 int main(void){
 	printf("\nhello world\n\n");
+	summ(3, multipl(3, -2));
+	subtract(4, division(3, -2));
 	return 0;
 }
