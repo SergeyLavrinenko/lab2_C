@@ -15,6 +15,12 @@ float subtract(float a, float b){
         return a - b;
 }
 
+float division(float a, float b){
+        printf("Частное чисел %g и %g равно %g\n", a, b, a / b);
+        return a / b;
+}
+
+
 
 int main(void){
 	printf("\nhello world\n\n");
