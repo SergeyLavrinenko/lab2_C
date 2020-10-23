@@ -10,6 +10,12 @@ float multipl(float a, float b){
         return a * b;
 }
 
+float subtract(float a, float b){
+        printf("Результат вычитания числа %g из %g равен %g\n", b, a, a - b);
+        return a - b;
+}
+
+
 int main(void){
 	printf("\nhello world\n\n");
 	return 0;
